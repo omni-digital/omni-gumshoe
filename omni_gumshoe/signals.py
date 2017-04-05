@@ -19,5 +19,5 @@ def log_superuser_login(request, user, **kwargs):
         LogEntry.objects.create(
             user=user,
             action_flag=LOGIN,
-            change_message='{} logged in.'.format(user),
+            change_message='{} logged in to {}'.format(user, request.path),
         )
