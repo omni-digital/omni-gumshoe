@@ -59,7 +59,11 @@ setup(
     install_requires=[],
     license="MIT",
     zip_safe=False,
-    keywords='omni_gumshoe',
+    keywords=[
+        'omni_gumshoe',
+        'admin',
+        'logging',
+    ],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Framework :: Django',
