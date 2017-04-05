@@ -31,27 +31,14 @@ Add it to your `INSTALLED_APPS`:
 
     INSTALLED_APPS = (
         ...
-        'omni_gumshoe.apps.OmniGumshoeConfig',
+        'omni_gumshoe',
         ...
     )
-
-Add Omni Gumshoe's URL patterns:
-
-.. code-block:: python
-
-    from omni_gumshoe import urls as omni_gumshoe_urls
-
-
-    urlpatterns = [
-        ...
-        url(r'^', include(omni_gumshoe_urls)),
-        ...
-    ]
 
 Features
 --------
 
-* TODO
+* Adds a `LogEvent` every time a super user logs in.
 
 Running Tests
 -------------
