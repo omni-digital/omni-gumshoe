@@ -47,11 +47,11 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 setup(
     name='omni_gumshoe',
     version=version,
-    description="""Django middleware for tracking superuser logins.""",
+    description="""Simple django signal for tracking superuser logins.""",
     long_description=readme + '\n\n' + history,
     author='Philip Gardner',
     author_email='philip.gardner@omni-digital.co.uk',
-    url='https://github.com/omni-digital/omni_gumshoe',
+    url='https://github.com/omni-digital/omni-gumshoe',
     packages=[
         'omni_gumshoe',
     ],
@@ -66,6 +66,7 @@ setup(
         'Framework :: Django :: 1.8',
         'Framework :: Django :: 1.9',
         'Framework :: Django :: 1.10',
+        'Framework :: Django :: 1.11',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: BSD License',
         'Natural Language :: English',
@@ -75,5 +76,6 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
 )
