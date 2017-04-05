@@ -46,6 +46,24 @@ Does the code actually work?
     (myenv) $ pip install tox
     (myenv) $ tox
 
+Recommended With
+----------------
+We would recommend using Logentry Admin, Omni Gumshoe adds slightly more visibility to Logentry Admin.
+
+Install django-logentry-admin::
+
+    pip install django-logentry-admin
+
+Add it to your `INSTALLED_APPS`:
+
+.. code-block:: python
+
+    INSTALLED_APPS = (
+        ...
+        'django-logentry-admin',
+        ...
+    )
+
 Credits
 -------
 
