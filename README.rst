@@ -5,18 +5,13 @@ Omni Gumshoe
 .. image:: https://badge.fury.io/py/omni_gumshoe.svg
     :target: https://badge.fury.io/py/omni_gumshoe
 
-.. image:: https://travis-ci.org/NoLogo/omni_gumshoe.svg?branch=master
-    :target: https://travis-ci.org/NoLogo/omni_gumshoe
+.. image:: https://travis-ci.org/omni-digital/omni-gumshoe.svg?branch=master
+    :target: https://travis-ci.org/omni-digital/omni-gumshoe
 
-.. image:: https://codecov.io/gh/NoLogo/omni_gumshoe/branch/master/graph/badge.svg
-    :target: https://codecov.io/gh/NoLogo/omni_gumshoe
+.. image:: https://codecov.io/gh/omni-digital/omni-gumshoe/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/omni-digital/omni-gumshoe
 
-Django middleware for tracking superuser logins.
-
-Documentation
--------------
-
-The full documentation is at https://omni_gumshoe.readthedocs.io.
+Simple logging for superuser logins.
 
 Quickstart
 ----------
