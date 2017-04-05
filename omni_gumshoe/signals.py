@@ -1,8 +1,6 @@
-from django.contrib.admin.models import LogEntry
+from django.contrib.admin.models import CHANGE, LogEntry
 from django.contrib.auth.signals import user_logged_in
 from django.dispatch import receiver
-
-LOGIN = 4
 
 
 @receiver(user_logged_in)
@@ -18,6 +16,6 @@ def log_superuser_login(request, user, **kwargs):
     if user.is_superuser:
         LogEntry.objects.create(
             user=user,
-            action_flag=LOGIN,
+            action_flag=CHANGE,
             change_message='{} logged in to {}'.format(user, request.path),
         )
