@@ -34,6 +34,7 @@ Features
 --------
 
 * Adds a `LogEvent` every time a super user logs in.
+* Adds a `LogEvent` every time a staff user logs in.
 
 Running Tests
 -------------
