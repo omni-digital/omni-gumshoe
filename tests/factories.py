@@ -16,6 +16,13 @@ class UserFactory(factory.django.DjangoModelFactory):
         django_get_or_create = ('username',)
 
 
+class StaffUserFactory(UserFactory):
+    """
+    Django SuperUser factory.
+    """
+    is_staff = True
+
+
 class SuperUserFactory(UserFactory):
     """
     Django SuperUser factory.
