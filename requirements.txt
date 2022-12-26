@@ -1,6 +1,6 @@
 # Dev requirements
 bumpversion==0.5.3
-wheel==0.29.0
+wheel==0.38.1
 
 # Test requirements
 factory-boy>=2.8.1
